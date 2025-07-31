@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "mushroomtap"
+      }
+    ],
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "mushroomtap"
+      }
+    ],
+    "file": "game:blocktypes/plant/mushroom-side.json"
+  }
+]
