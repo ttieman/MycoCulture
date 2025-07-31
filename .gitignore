@@ -1,0 +1,32 @@
+# Compiled files
+*.dll
+*.pdb
+*.exe
+
+# VS build artifacts
+bin/
+obj/
+
+# Logs and caches
+*.log
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Mod-specific stuff
+modconfig.json
+ModConfig.json
+
+# Optional: exclude your built .zip if you package your mod for release
+*.zip
+
+# IDE specific (optional but good)
+.idea/
+*.iml
+*.code-workspace

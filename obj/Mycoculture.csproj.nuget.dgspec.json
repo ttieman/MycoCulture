@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\Mycoculture\\Mycoculture.csproj": {}
+    "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\MycoCulture\\Mycoculture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\Mycoculture\\Mycoculture.csproj": {
+    "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\MycoCulture\\Mycoculture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\Mycoculture\\Mycoculture.csproj",
+        "projectUniqueName": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\MycoCulture\\Mycoculture.csproj",
         "projectName": "Mycoculture",
-        "projectPath": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\Mycoculture\\Mycoculture.csproj",
+        "projectPath": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\MycoCulture\\Mycoculture.csproj",
         "packagesPath": "C:\\Users\\tiema\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\Mycoculture\\obj\\",
+        "outputPath": "C:\\Users\\tiema\\modding\\VSMods\\Mycoculture\\MycoCulture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
