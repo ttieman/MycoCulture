@@ -1,0 +1,22 @@
+{
+  "type": "code",
+  "modid": "mycoculture",
+  "name": "Mycoculture",
+  "authors": [
+    "grA"
+  ],
+  "description": "A Mycology propigation mod",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": ""
+  },
+  "class": "Mycoculture.MycocultureModSystem",
+  "assets": [
+    {
+      "path": "patches"
+    }
+  ],
+  "patches": [
+    "patches/mushroom-glow.json"
+  ]
+}

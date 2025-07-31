@@ -1,0 +1,14 @@
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.AssemblyInfoInputs.cache
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.AssemblyInfo.cs
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.csproj.CoreCompileInputs.cache
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\bin\Debug\Mods\mod\modinfo.json
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\bin\Debug\Mods\mod\modicon.png
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.csproj.AssemblyReference.cache
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.dll
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\refint\Mycoculture.dll
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\Mycoculture.pdb
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\bin\Debug\Mods\mod\Mycoculture.deps.json
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\bin\Debug\Mods\mod\Mycoculture.dll
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\bin\Debug\Mods\mod\Mycoculture.pdb
+C:\Users\tiema\modding\VSMods\Mycoculture\Mycoculture\obj\Debug\ref\Mycoculture.dll
