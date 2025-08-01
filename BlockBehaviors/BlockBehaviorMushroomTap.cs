@@ -76,12 +76,42 @@ namespace Mycoculture.BlockBehaviors
             //return the server world
             var serverWorld = world as IServerWorldAccessor;
 
+            BlockPos center = blockSel.Position;
+            List<BlockPos> validSporePositions = new List<BlockPos>();
+
+            
 
             //check for controls, ctrl key, and if the players hand is empty
             if (controls != null && controls.CtrlKey && barehand == true)
             {
+
+                for (var dx = -1; dx <= 1; dx++)
+                {
+                    for (int dz = -1; dz <= 1; dz++)
+                    {
+                        int x = center.X + dx;
+                        int y = center.Y - 1;
+                        int z = center.Z + dz;
+
+
+
+                        BlockPos checkPos = new BlockPos(x, y, z);
+                        BlockPos abovePos = new BlockPos(x, y + 1, z);
+
+                        Block aboveBlock = world.BlockAccessor.GetBlock(abovePos);
+
+                        if (aboveBlock.Code.Path == "air")
+                        {
+                            validSporePositions.Add(checkPos); // we are collecting the position of the GROUND block
+                        }
+
+
+                    }
+
+                }
+
                 //if so we log the players name in the server console
-                serverWorld?.Logger.Notification($"{byPlayer.PlayerName} tapped mushroom at {blockSel.Position}");
+                serverWorld?.Logger.Notification($"{byPlayer.PlayerName} tapped mushroom at {blockSel.Position} and found {validSporePositions.Count} valid spore positions:");
 
                 //prevent all default interactions 
                 handling = EnumHandling.PreventDefault;
